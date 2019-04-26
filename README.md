@@ -1,2 +1,2 @@
-# aadhar_opening-an-aadhar
-Python code to open a new aadhar number.
+# Generic python modules 1) main_runner.py - 2) Options.py 3) otpcheck.py
+Python code to to choose the options from user on the aaddhar front end system.
