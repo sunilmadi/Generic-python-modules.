@@ -1,2 +1,3 @@
 # Generic python modules 1) main_runner.py - 2) Options.py 3) otpcheck.py
-Python code to to choose the options from user on the aaddhar front end system. Also code to generate OTP for registered mobile number.
+1) Main runner is to select one of the option - 1. open an aadhar 2.update aadhar 3. enquire aadhar 4. continue aadhar registration using token number 5.everify aadhar. Also this module is inside loop which asks you if you want to proceed with next option once the processing of first option is complete.
+OTP check sends otp to mobile. For now otp is sent to twilio registered number 7507483508. OTP is fetched from OTP table by calculating current OTP + 1. If correct OTP is entered within 120 seconds, 1 is returned and processing continues. If OTP is entered after 120 seconds, 3 is returned and processing ends. If invalid OTP is entered, '2' is returned and processing stops.
